@@ -1,0 +1,7 @@
+.classpath
+.project
+bin/
+.settings/target
+/.settings
+/target
+VanishNoPickup.jar

@@ -1,0 +1,51 @@
+name: VanishNoPickup
+main: com.nilla.vanishnopickup.VanishNoPickup
+version: 1.9.12
+author: EvilNilla
+commands:
+  vanish:
+    description: Toggles your visibility
+    aliases: poof
+    usage: |
+           Incorrect usage of /<command>. Examples:
+           /<command> - Toggles your visibility
+           /<command> list - List of invisible players
+  nopickup:
+    description: Toggles Picking Up Items
+    aliases: np
+    usage: |
+           Incorrect usage of /<command>. Examples:
+           /<command> - Toggles Your Ability to Pickup Items
+           /<command> list - List of players with Item Pickup Disabled
+permissions:
+    vanish.*:
+        children:
+            vanish.hidefromwho: true
+            vanish.nopickup: true
+            vanish.vanish.list: true
+            vanish.vanish: true
+            vanish.dont.hide: true
+            vanish.nopickup.list: true
+            vanish.noaggromobs: true
+    vanish.hidefromwho:
+        description: vanish
+        default: op
+    vanish.nopickup:
+        description: vanish
+        default: op
+    vanish.vanish.list:
+        description: vanish
+        default: op
+    vanish.vanish:
+        description: vanish
+        default: op
+    vanish.dont.hide:
+        description: vanish
+        default: op
+    vanish.nopickup.list:
+        description: vanish
+        default: op
+    vanish.noaggromobs:
+        description: vanish
+        default: op
+   
