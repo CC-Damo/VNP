@@ -27,6 +27,7 @@ import org.bukkit.scheduler.BukkitScheduler;
  * 
  * @author Nodren
  * @updated by EvilNilla 
+ * @blah
  */
 public class VanishNoPickup extends JavaPlugin
 {	
